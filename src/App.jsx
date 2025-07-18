@@ -15,7 +15,7 @@ export default function App() { //this is a component
       // You can replace this with any API you want
       // to fetch data from
       // For example, you can fetch data from a weather API
-      // or a news API
+      // or a news AP
       const res = await fetch('https://api.adviceslip.com/advice');
       const data = await res.json();
       console.log(data.slip.advice);
